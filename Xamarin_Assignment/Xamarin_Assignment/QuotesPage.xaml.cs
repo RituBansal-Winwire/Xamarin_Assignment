@@ -26,9 +26,7 @@ namespace Xamarin_Assignment
 
         private void OnSliderValueChanged(object sender, ValueChangedEventArgs e)
         {
-            int value = ((int)e.NewValue);
-            Changefont.FontSize = value;
-            displayLabel.Text = String.Format("Font Size: {0}", value);
+           
         }
 
         private void ChangeText(object sender, EventArgs e)
