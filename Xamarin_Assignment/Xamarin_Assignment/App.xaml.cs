@@ -14,7 +14,7 @@ namespace Xamarin_Assignment
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new QuotesPage();
+            MainPage = new Layout_3();
         }
 
         protected override void OnStart()

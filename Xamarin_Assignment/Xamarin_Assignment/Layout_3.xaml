@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Assignment.Layout_3" BackgroundColor="#354242">
+
+    <ContentPage.Content>
+        <StackLayout Padding="0,100,0,0">
+            <Label Text="1234" FontSize="50" TextColor="White"
+                HorizontalOptions="Center"  />
+
+
+
+            <Grid RowSpacing="10" ColumnSpacing="10" Padding="40">
+                <Button  Grid.Row="0" Grid.Column="0" Text="1" TextColor = "#28282c" BackgroundColor="#fff" FontSize="30" CornerRadius="20"></Button>
+                <Button  Grid.Row="0" Grid.Column="1" Text="2" TextColor = "#28282c" BackgroundColor="#fff" FontSize="30" CornerRadius="20" ></Button>
+                <Button  Grid.Row="0" Grid.Column="2" Text="3" TextColor = "#28282c" BackgroundColor="#fff" FontSize="30" CornerRadius="20" ></Button>
+                <Button  Grid.Row="1" Grid.Column="0" Text="4" TextColor = "#28282c" BackgroundColor="#fff" FontSize="30" CornerRadius="20"></Button>
+                <Button  Grid.Row="1" Grid.Column="1" Text="5" TextColor = "#28282c" BackgroundColor="#fff"  FontSize="30" CornerRadius="20"></Button>
+                <Button  Grid.Row="1" Grid.Column="2" Text="6" TextColor = "#28282c" BackgroundColor="#fff"  FontSize="30" CornerRadius="20"></Button>
+                <Button  Grid.Row="2" Grid.Column="0" Text="7" TextColor = "#28282c" BackgroundColor="#fff" FontSize="30" CornerRadius="20"></Button>
+                <Button  Grid.Row="2" Grid.Column="1" Text="8" TextColor = "#28282c" BackgroundColor="#fff"  FontSize="30" CornerRadius="20"></Button>
+                <Button  Grid.Row="2" Grid.Column="2" Text="9" TextColor = "#28282c" BackgroundColor="#fff" FontSize="30" CornerRadius="20" ></Button>
+                <Button  Grid.Row="3" Grid.Column="1" Text="0" TextColor = "#28282c" BackgroundColor="#fff"  FontSize="30" CornerRadius="20"></Button>
+               
+            </Grid>
+
+            <Button Text="Dial" TextColor = "#28282c" BackgroundColor="#96ca2d" FontSize="40" CornerRadius="30"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
